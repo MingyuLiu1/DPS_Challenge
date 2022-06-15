@@ -37,7 +37,7 @@ def apiPredict():
     if not (ym):
         return {"Error": "year or month is missing"}, 400
     elif ym < 202101:
-        return {"Error": "Year should be greater than 2021"}, 400
+        return {"Error": "YearMonth should be greater than 2021"}, 400
 
     features = [[ym]]
     prediction = int(model.predict(features)[0])
