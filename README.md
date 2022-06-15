@@ -14,5 +14,9 @@ This repo is for DSP challenge.
 I utilize LinearRegression model to do the prediction task.  
 
 First, I do some visualization to analyse the distribution and relationshop of the data. 
+![image](https://github.com/MingyuLiu1/DPS_Challenge/blob/main/figs/num_acc_cat.png)
+
+![image](https://github.com/MingyuLiu1/DPS_Challenge/blob/main/figs/num_acc_00-20.png)
 
 Then after preprocessing, only the values of Month and Year are input to the predit model.
+![image](https://github.com/MingyuLiu1/DPS_Challenge/blob/main/figs/web.png)
