@@ -15,8 +15,6 @@ model = joblib.load('dps_model.pkl')
 def Home():
     return render_template('index.html')
 
-
-# standard_to = StandardScaler()
 @app.route("/predict", methods=['POST'])
 def predict():
     if request.method == 'POST':
