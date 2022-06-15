@@ -11,6 +11,8 @@ This repo is for DSP challenge.
   `202101` --- 2021 January
   
 ## Task 1
-I utilize LinearRegression model to do the prediction task. \\
-First, I do some visualization to analyse the distribution and relationshop of the data. \\
+I utilize LinearRegression model to do the prediction task.  
+
+First, I do some visualization to analyse the distribution and relationshop of the data. 
+
 Then after preprocessing, only the values of Month and Year are input to the predit model.
